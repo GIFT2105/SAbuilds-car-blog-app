@@ -8,12 +8,9 @@ import autoprefixer from 'autoprefixer';
 export default defineConfig({
  
  
-  server: {
-    host: '0.0.0.0',
-  },
-
-
   plugins: [react()],
+  base: "/SAbuilds-car-blog-app/",
+
 
   css: {
     postcss: {
@@ -24,5 +21,7 @@ export default defineConfig({
     },
 
     
+
+
   },
 });
